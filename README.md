@@ -25,7 +25,7 @@ Prerequisites:
 
 2. Access the DSRI [OpenShift](https://www.okd.io/) web UI
 
-	- https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri  
+	- [https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri](https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri)  
 
 3. 👩‍💻 Go to the [**workshops** project](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview) in the OpenShift web UI
 
@@ -35,11 +35,11 @@ Prerequisites:
 
 Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-projects
 
-📖 See the documentation at https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template 
+📖 See the documentation at [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template) 
 
 1. 👨‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
 2. Use this storage claim name: **pvc-mapr-workshops** 
-	- It can be found at https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage
+	- It can be found at [https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage](https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage)
 	- ⚠️ When copy/pasting the storage name it can happen that a space is added at the end. **Be careful to trim all spaces at the start and the end of the storage name** before starting the application, otherwise it will fail
 
 2. Use your application name as **Storage folder**
@@ -60,13 +60,13 @@ For small and medium size files you can simply drag and drop files and folder in
 
 ## Upload your code 📜
 
-We recommend you to use `git`, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
+We recommend you to use [`git`](https://git-scm.com/) with GitHub or GitLab, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
 
 See the documentation for each application:
 
-* RStudio: https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio#use-git-in-rstudio
-* VSCode: https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode#use-git-in-vscode
-* JupyterLab (with `jupyterlab-git` extension installed): https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-jupyter#use-git-in-jupyterlab
+* RStudio: [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio#use-git-in-rstudio](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio#use-git-in-rstudio)
+* VSCode: [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode#use-git-in-vscode](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode#use-git-in-vscode)
+* JupyterLab (with `jupyterlab-git` extension installed): [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-jupyter#use-git-in-jupyterlab](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-jupyter#use-git-in-jupyterlab)
 
 ---
 
@@ -93,7 +93,7 @@ For large data files you will need to install and use the `oc` command line inte
 >
 > * On **Windows** [checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
-📖 See the complete documentation to upload data at https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data 
+📖 See the complete documentation to upload data at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data) 
 
 > 💡 You will have a better connection when directly connected to the UMnet network (or eduroam at UM) to upload large data file. Even better if you can use ethernet wires.
 
@@ -124,7 +124,7 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 <img src="https://raw.githubusercontent.com/MaastrichtU-IDS/dsri-documentation/master/website/static/img/screenshot_delete_application.png" alt="Delete application from the web UI" style="max-width: 100%; max-height: 100%;" />
 
-📖 See the complete documentation to delete an application at https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application
+📖 See the complete documentation to delete an application at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application)
 
 ---
 
