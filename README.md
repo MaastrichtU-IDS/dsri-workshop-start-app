@@ -19,13 +19,15 @@ Prerequisites:
 
 ## Access the DSRI 🔑
 
+📖 The DSRI documentation can be found at [https://maastrichtu-ids.github.io/dsri-documentation](https://maastrichtu-ids.github.io/dsri-documentation)
+
 1. Connect to the [**UM VPN**](https://vpn.maastrichtuniversity.nl).
 
 	- Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
 
 2. Access the DSRI [OpenShift](https://www.okd.io/) web UI
 
-	- [https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri](https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri)  
+	- 📖 See the [complete documentation to access the DSRI](https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri)
 
 3. 👩‍💻 Go to the [**workshops** project](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview) in the OpenShift web UI
 
@@ -35,7 +37,7 @@ Prerequisites:
 
 Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-projects
 
-📖 See the documentation at [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template) 
+📖 See the [complete documentation to deploy from templates](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template)
 
 1. 👨‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
 2. Use this storage claim name: **pvc-mapr-workshops** 
@@ -93,7 +95,7 @@ For large data files you will need to [install the `oc` command line interface](
 >
 > * On **Windows** [checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
-📖 See the complete documentation to upload large data file at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data) 
+📖 See the [complete documentation to upload large data file](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data)
 
 > 💡 You will have a better connection when directly connected to the UMnet network (or eduroam at UM) to upload large data file. Even better if you can use ethernet wires.
 
