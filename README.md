@@ -1,4 +1,4 @@
-# Start an application on the DSRI (workshop)
+# Start an application on the DSRI
 
 A workshop to get started with the **Data Science Research Infrastructure (DSRI)** in an hour 🕐 (hopefully)!
 
@@ -8,6 +8,7 @@ During this workshop, you will:
 * Create a new application from a template in the catalog (RStudio, JupyterLab or VScode )
 * Access the application
 * Add source code and data in the application
+* Optionally install the `oc` command line interface
 
 Prerequisites:
 
@@ -50,6 +51,14 @@ Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-p
 
 ---
 
+## Upload files
+
+For small and medium size files you can simply drag and drop files and folder in the application web UI, or use the **Upload files** button in RStudio.
+
+> This solution works for files up to a few hundred MBs (depending on the application).
+
+---
+
 ## Upload your code
 
 We recommend you to use `git`, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
@@ -62,9 +71,7 @@ See the documentation for each application:
 
 ---
 
-## Upload data
-
-For small and medium size files: you can drag and drop in the application web UI, or use the **Upload files** button in RStudio.
+## Upload large data files
 
 For large data files you will need to install and use the `oc` command line interface.
 
@@ -88,6 +95,8 @@ For large data files you will need to install and use the `oc` command line inte
 > * On **Windows** [checkout the documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
 📖 See the complete documentation to upload data at https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data 
+
+> 💡 You will have a better connection when directly connected to the UMnet network (or eduroam at UM) to upload large data file. Even better if you can use ethernet wires.
 
 ---
 
@@ -122,4 +131,4 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 ## See you soon!
 
-Fill this form to create a project on a longer term on the DSRI: 
+[📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project on a longer term for you on the DSRI.
