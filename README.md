@@ -1,5 +1,3 @@
-# Start an application on the DSRI
-
 A workshop to get started with the **Data Science Research Infrastructure (DSRI)** in an hour 🕐 (hopefully)!
 
 During this workshop, you will:
@@ -18,7 +16,7 @@ Prerequisites:
 
 ---
 
-## Access the DSRI
+## Access the DSRI 🔑
 
 1. Connect to the VPN
 
@@ -32,13 +30,13 @@ Prerequisites:
 
 ---
 
-## Start an application
+## Start an application 🚀
 
 Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-projects
 
 📖 See the documentation at https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template 
 
-1. 👩‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
+1. 👨‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
 2. Use this storage claim name: **pvc-mapr-workshops** 
 	- It can be found at https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage
 	- ⚠️ When copy/pasting the storage name it can happen that a space is added at the end. **Be careful to trim all spaces at the start and the end of the storage name** before starting the application, otherwise it will fail
@@ -51,7 +49,7 @@ Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-p
 
 ---
 
-## Upload files
+## Upload files 🗂️
 
 For small and medium size files you can simply drag and drop files and folder in the application web UI, or use the **Upload files** button in RStudio.
 
@@ -59,7 +57,7 @@ For small and medium size files you can simply drag and drop files and folder in
 
 ---
 
-## Upload your code
+## Upload your code 📜
 
 We recommend you to use `git`, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
 
@@ -71,7 +69,7 @@ See the documentation for each application:
 
 ---
 
-## Upload large data files
+## Upload large data files 📦
 
 For large data files you will need to install and use the `oc` command line interface.
 
@@ -100,7 +98,7 @@ For large data files you will need to install and use the `oc` command line inte
 
 ---
 
-## Stop and delete your application
+## Stop and delete your application ❌
 
 👨‍💻 Stop your application from the OpenShift web UI **Overview** page:
 
@@ -129,6 +127,6 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 ---
 
-## See you soon!
+## See you soon! 👋
 
 [📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project on a longer term for you on the DSRI.
