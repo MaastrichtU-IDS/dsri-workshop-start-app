@@ -1,4 +1,4 @@
-A workshop to get started with the **Data Science Research Infrastructure (DSRI)** in an hour 🕐 (hopefully)!
+A workshop to get started with the [**Data Science Research Infrastructure (DSRI)**](https://maastrichtu-ids.github.io/dsri-documentation/) in an hour 🕐 (hopefully)!
 
 During this workshop, you will:
 
@@ -62,7 +62,7 @@ For small and medium size files you can simply drag and drop files and folder in
 
 We recommend you to use [`git`](https://git-scm.com/) with GitHub or GitLab, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
 
-See the documentation for each application:
+📖 See the documentation for each application:
 
 * RStudio: [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio#use-git-in-rstudio](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio#use-git-in-rstudio)
 * VSCode: [https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode#use-git-in-vscode](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode#use-git-in-vscode)
@@ -72,7 +72,7 @@ See the documentation for each application:
 
 ## Upload large data files 📦
 
-For large data files you will need to install and use the `oc` command line interface.
+For large data files you will need to [install the `oc` command line interface](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install).
 
 > If you have the time it can be quickly installed on MacOS, Linux (works with WSL):
 >
@@ -93,7 +93,7 @@ For large data files you will need to install and use the `oc` command line inte
 >
 > * On **Windows** [checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
-📖 See the complete documentation to upload data at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data) 
+📖 See the complete documentation to upload large data file at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data) 
 
 > 💡 You will have a better connection when directly connected to the UMnet network (or eduroam at UM) to upload large data file. Even better if you can use ethernet wires.
 
