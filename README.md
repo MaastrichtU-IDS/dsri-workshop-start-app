@@ -128,10 +128,10 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 <img src="https://raw.githubusercontent.com/MaastrichtU-IDS/dsri-documentation/master/website/static/img/screenshot_delete_application.png" alt="Delete application from the web UI" style="max-width: 100%; max-height: 100%;" />
 
-📖 See the complete documentation to delete an application at [https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application)
+📖 See the [complete documentation to delete an application](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-delete-services#delete-an-application).
 
 ---
 
 ## See you soon! 👋
 
-[📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project on a longer term for you on the DSRI.
+[📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project on a longer term for you on the Data Science Research Infrastructure.
