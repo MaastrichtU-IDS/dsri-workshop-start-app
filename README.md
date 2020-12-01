@@ -12,17 +12,18 @@ Prerequisites:
 
 * A web browser (Chrome preferably, as some other web browsers have issues with the VSCode terminal)
 * An account on the DSRI with your UM email
-* Access to the UM VPN, or direct connection to UMnet or eduroam at Maastricht University
+* Access to the [**UM VPN**](https://vpn.maastrichtuniversity.nl), or direct connection to **UMnet** or **eduroam** at Maastricht University
+  * Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
 
 ---
 
 ## Access the DSRI 🔑
 
-1. Connect to the VPN
+1. Connect to the [**UM VPN**](https://vpn.maastrichtuniversity.nl).
 
-	- Students can use the Student Desktop (athenadesktop.maastrichtuniversity.nl)
+	- Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
 
-2. Access the DSRI 
+2. Access the DSRI [OpenShift](https://www.okd.io/) web UI
 
 	- https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri  
 
@@ -90,7 +91,7 @@ For large data files you will need to install and use the `oc` command line inte
 > brew install openshift-cli
 > ```
 >
-> * On **Windows** [checkout the documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
+> * On **Windows** [checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
 📖 See the complete documentation to upload data at https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data 
 
