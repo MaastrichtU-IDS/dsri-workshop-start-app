@@ -62,7 +62,7 @@ For small and medium size files you can simply drag and drop files and folder in
 
 ## Upload your code 📜
 
-We recommend you to use [`git`](https://git-scm.com/) with GitHub or GitLab, you can use directly from the commandline in all applications, or use the web UI integration each app proposes.
+We recommend you to use [`git`](https://git-scm.com/) with GitHub or GitLab, you can use it directly from the terminal in all applications, or use the web UI integration each app proposes.
 
 📖 See the documentation for each application:
 
@@ -103,7 +103,9 @@ For large data files you will need to [install the `oc` command line interface](
 
 ## Stop and delete your application ❌
 
-👨‍💻 Stop your application from the OpenShift web UI **Overview** page:
+👨‍💻 Stop your application from the [OpenShift web UI **Overview** page](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview):
+
+> You can use the *Filter by name* search box to quickly find your application based on the name you gave it.
 
 ![Stop your application](https://raw.githubusercontent.com/MaastrichtU-IDS/dsri-documentation/master/website/static/img/screenshot_scaledown_pod.png)
 
