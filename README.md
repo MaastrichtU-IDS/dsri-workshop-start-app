@@ -54,15 +54,15 @@ Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-p
 
 3. Access the application you just started
 
-	- 👩‍💻 You can find the URL of your application in the OpenShift web UI **workshops** overview
+	- 👩‍💻 You can find the URL of your application in the [OpenShift web UI **workshops** overview](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview).
 
 ---
 
 ## Upload files 🗂️
 
-For small and medium size files you can simply drag and drop files and folder in the application web UI, or use the **Upload files** button in RStudio.
+👨‍💻 For small and medium size files you can simply drag and drop files and folder in the application web UI, or use the **Upload files** button in RStudio.
 
-> This solution works for files up to a few hundred MBs (depending on the application).
+> This solution works for files up to a few hundred MBs (depending on the application, use it until it fails!).
 
 ---
 
@@ -116,11 +116,11 @@ For large data files you will need to [install the `oc` command line interface](
 
 ![Stop your application](https://raw.githubusercontent.com/MaastrichtU-IDS/dsri-documentation/master/website/static/img/screenshot_scaledown_pod.png)
 
-> Note: creating more than one pod ("Scale up") is useless for most data science applications, such as RStudio, VSCode or JupyterLab. It is only relevant for applications running as a cluster, like Apache Flink or Apache Spark.
+> Note: creating more than one pod ("Scale up") is useless for most data science applications, such as RStudio, VSCode or JupyterLab. It is only relevant for applications running as a cluster, like Apache Flink or Apache Spark, or web application with a lot of traffic (OpenShift will redirect the traffic depending on pod availability, and start new pods if required, aka. horizontal scaling).
 
 👩‍💻 Delete your application:
 
-* If you installed the `oc` command line interface, it is easier to use it to delete all the objects related to the applications:
+* If you installed the `oc` command line interface, it is easier to use it to delete all the objects related to your application:
 
 ```bash
 oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-application
@@ -128,7 +128,7 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 > Replace `my-application` by the Application name you defined.
 
-* Otherwise you will need to manually delete a few objects related to your application in the OpenShift web UI:
+* Otherwise you will need to manually delete a few objects related to your application in the OpenShift web UI, it can be done easily from the **Overview** page:
   1. Delete the **Route**
   2. Delete the **Service**
   3. Delete the **Deployment Config** 
@@ -141,4 +141,4 @@ oc delete all,secret,configmaps,serviceaccount,rolebinding --selector app=my-app
 
 ## See you soon! 👋
 
-[📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project on a longer term for you on the Data Science Research Infrastructure.
+[📝 Fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdndn0naNmj2ACpLE5j1S3Ngb1PCXK_Gl7oB-hI_mN4Z_NBQw/viewform) to help us create a project for you on the Data Science Research Infrastructure for a longer term!
