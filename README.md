@@ -23,7 +23,13 @@ Prerequisites:
 
 1. Connect to the [**UM VPN**](https://vpn.maastrichtuniversity.nl).
 
-	- Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
+  - Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
+
+  - On Linux you can use [`openconnect`](https://websiteforstudents.com/install-openconnect-ssl-vpn-client-on-ubuntu-18-04-18-04/):
+
+    ```bash
+    echo 'UM_PASSWORD' | sudo openconnect --passwd-on-stdin -u YOUR.UM.USER --authgroup 01-Employees vpn-rw1.maastrichtuniversity.nl
+    ```
 
 2. Access the DSRI [OpenShift](https://www.okd.io/) web UI
 
@@ -78,7 +84,7 @@ For large data files you will need to [install the `oc` command line interface](
 
 > If you have the time it can be quickly installed on MacOS, Linux (works with WSL):
 >
-> * On **Linux**:
+> * On **Linux** 🐧
 >
 > ```bash
 > wget https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
@@ -87,13 +93,14 @@ For large data files you will need to [install the `oc` command line interface](
 > sudo mv oc kubectl /usr/local/bin/
 > ```
 >
-> * On **Mac**:
+> * On **Mac** 🍎
 >
 > ```bash
 > brew install openshift-cli
 > ```
 >
-> * On **Windows** [checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
+> * On **Windows** 🏢 
+>   * [Checkout the installation documentation](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-install#on-windows).
 
 📖 See the [complete documentation to upload large data file](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-load-data)
 
