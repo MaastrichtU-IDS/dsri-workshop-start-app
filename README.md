@@ -23,9 +23,9 @@ Prerequisites:
 
 1. Connect to the [**UM VPN**](https://vpn.maastrichtuniversity.nl).
 
-  - Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
+	- Students can use the Athena Student Desktop at [athenadesktop.maastrichtuniversity.nl](https://athenadesktop.maastrichtuniversity.nl) to access the DSRI web UI
 
-  - On Linux you can use [`openconnect`](https://websiteforstudents.com/install-openconnect-ssl-vpn-client-on-ubuntu-18-04-18-04/):
+	- On Linux you can use [`openconnect`](https://websiteforstudents.com/install-openconnect-ssl-vpn-client-on-ubuntu-18-04-18-04/):
 
     ```bash
     echo 'UM_PASSWORD' | sudo openconnect --passwd-on-stdin -u YOUR.UM.USER --authgroup 01-Employees vpn-rw1.maastrichtuniversity.nl
