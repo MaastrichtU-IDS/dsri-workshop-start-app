@@ -35,7 +35,7 @@ Prerequisites:
 
 	- 📖 See the [complete documentation to access the DSRI](https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri)
 
-3. 👩‍💻 Go to the [**workshops** project](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview) in the OpenShift web UI
+3. 👩‍💻 Go to the [**dsri-workshops** project](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/dsri-workshop/graph) in the OpenShift web UI
 
 ---
 
@@ -46,15 +46,13 @@ Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-p
 📖 See the [complete documentation to deploy from templates](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template)
 
 1. 👨‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
-2. Use this storage claim name: **pvc-mapr-workshops** 
-	- It can be found at [https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage](https://app.dsri.unimaas.nl:8443/console/project/workshops/browse/storage)
+2. Persistent storage will create automatically.
+	- It can be found at [https://console-openshift-console.apps.dsri2.unimaas.nl/k8s/cluster/persistentvolumes](https://console-openshift-console.apps.dsri2.unimaas.nl/k8s/cluster/persistentvolumes)
 	- ⚠️ When copy/pasting the storage name it can happen that a space is added at the end. **Be careful to trim all spaces at the start and the end of the storage name** before starting the application, otherwise it will fail
 
-2. Use your application name as **Storage folder**
+2. Access the application you just started
 
-3. Access the application you just started
-
-	- 👩‍💻 You can find the URL of your application in the [OpenShift web UI **workshops** overview](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview).
+	- 👩‍💻 You can find the URL of your application in the [OpenShift web UI **workshops** overview](https://console-openshift-console.apps.dsri2.unimaas.nl/project-details/ns/dsri-workshop).
 
 ---
 
@@ -110,7 +108,7 @@ For large data files you will need to [install the `oc` command line interface](
 
 ## Stop and delete your application ❌
 
-👨‍💻 Stop your application from the [OpenShift web UI **Overview** page](https://app.dsri.unimaas.nl:8443/console/project/workshops/overview):
+👨‍💻 Stop your application from the [OpenShift web UI **Topology** page](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/dsri-workshop/graph):
 
 > You can use the *Filter by name* search box to quickly find your application based on the name you gave it.
 
