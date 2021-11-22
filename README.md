@@ -28,7 +28,7 @@ Prerequisites:
 	- On Linux you can use [`openconnect`](https://websiteforstudents.com/install-openconnect-ssl-vpn-client-on-ubuntu-18-04-18-04/):
 
     ```bash
-    echo 'UM_PASSWORD' | sudo openconnect --passwd-on-stdin -u YOUR.UM.USER --authgroup 01-Employees vpn-rw1.maastrichtuniversity.nl
+    sudo openconnect --passwd-on-stdin -u YOUR.UM.USER --authgroup 01-Employees vpn-rw1.maastrichtuniversity.nl
     ```
 
 2. Access the DSRI [OpenShift](https://www.okd.io/) web UI
