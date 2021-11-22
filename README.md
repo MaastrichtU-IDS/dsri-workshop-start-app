@@ -35,7 +35,7 @@ Prerequisites:
 
 	- 📖 See the [complete documentation to access the DSRI](https://maastrichtu-ids.github.io/dsri-documentation/docs/access-dsri)
 
-3. 👩‍💻 Go to the [**dsri-workshops** project](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/dsri-workshop/graph) in the OpenShift web UI
+3. 👩‍💻 Go to the [**workspace-workshop** project](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/workspace-workshop/graph) in the OpenShift web UI
 
 ---
 
@@ -109,7 +109,7 @@ For large data files you will need to [install the `oc` command line interface](
 
 ## Stop and delete your application ❌
 
-👨‍💻 Stop your application from the [OpenShift web UI **Topology** page](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/dsri-workshop/graph):
+👨‍💻 Stop your application from the [OpenShift web UI **Topology** page](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/workspace-workshop/graph):
 
 > You can use the *Filter by name* search box to quickly find your application based on the name you gave it.
 
