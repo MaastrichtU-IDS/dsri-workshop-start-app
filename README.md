@@ -43,7 +43,7 @@ Prerequisites:
 
 Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-projects
 
-📖 See the [complete documentation to deploy from templates](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-from-template)
+📖 See how to deploy [JupyterLab](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-jupyter), [RStudio](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-rstudio), [VSCode](https://maastrichtu-ids.github.io/dsri-documentation/docs/deploy-vscode) and lots more.
 
 1. 👨‍💻 Use your name to generate a unique **Application name**, e.g. `rstudio-vemonet`
 2. Persistent storage will create automatically.
