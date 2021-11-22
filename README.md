@@ -106,28 +106,6 @@ For large data files you will need to [install the `oc` command line interface](
 
 ---
 
-## Migrate to the new cluster
-If you currently have a project on the previous version of the DSRI (OKD 3.11), you will need to migrate your project to the new version of the DSRI cluster (OKD 4.6)
-The easiest way to migrate your data from the old to the new cluster is to use the `oc` command line tool to copy the data on your laptop, then copy it to the persistent volume of your application on the new cluster.
-
-For this example, we will consider a RStudio application named `rstudio-root`, with the persistent volume in `/home/rstudio`, but the same process can be applied to any other application deployed on the DSRI
-
-1. Login to the **old cluster** with `oc login`
-2. Get the pod ID of your RStudio application (it should look like `rstudio-root-1-bkpdf`)
-	```bash 
-	oc get pod --selector app=rstudio-root
-	```
-3. Copy data in the persistent storage of the RStudio application to your laptop (in a `rstudio-data` folder)
-	```bash 
-	oc cp rstudio-root-1-bkpdf:/home/rstudio ./rstudio-data
-	```
-4. Once the data has been downloaded you can login to the new cluster with `oc login`
-5. Start your application on the new cluster, and get its pod ID (we will use `rstudio-1-gcfev` for this example)
-6. Copy the `rstudio-data` folder to the new application permanent volume (`/home/rstudio` for RStudio)
-	```bash 
-	oc cp rstudio-1-gcfev:/home/rstudio ./rstudio-data
-	```
-[More Information ](https://maastrichtu-ids.github.io/dsri-documentation/docs/openshift-migrate-project/)
 
 ## Stop and delete your application ❌
 
