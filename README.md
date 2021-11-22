@@ -50,9 +50,9 @@ Start a **JupyterLab/RStudio/VSCode** application from the DSRI catalog in ids-p
 	- It can be found at [https://console-openshift-console.apps.dsri2.unimaas.nl/k8s/cluster/persistentvolumes](https://console-openshift-console.apps.dsri2.unimaas.nl/k8s/cluster/persistentvolumes)
 	- ⚠️ When copy/pasting the storage name it can happen that a space is added at the end. **Be careful to trim all spaces at the start and the end of the storage name** before starting the application, otherwise it will fail
 
-2. Access the application you just started
+3. Access the application you just started
 
-	- 👩‍💻 You can find the URL of your application in the [OpenShift web UI **workshops** overview](https://console-openshift-console.apps.dsri2.unimaas.nl/project-details/ns/dsri-workshop).
+	- 👩‍💻 You can find the URL of your application in the [OpenShift web UI **workshops** overview](https://console-openshift-console.apps.dsri2.unimaas.nl/topology/ns/workspace-workshop).
 
 ---
 
